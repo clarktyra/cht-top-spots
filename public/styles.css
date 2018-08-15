@@ -1,9 +1,46 @@
+@keyframes example {
+    from {transform: translateX(-10%);}
+    to {transform: translateX(10%);}
+}
+
+@-webkit-keyframes example {
+    from {transform: translateX(-10%);}
+    to {transform: translateX(10%);}
+}
+
+.title {
+    text-align: center;
+    -webkit-animation: example 5s infinite;
+    animation: example 5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
 .somethin {
-    background-color: rgb(235, 250, 230);
+    color: ghostwhite
+    /* background-color: rgba(180, 196, 38, 0.651);
+    background-size: cover;
+    background-blend-mode: darken;
+        border-radius: 5px; */
+
+   
 }
 .somefat {
-    background-color: rgb(230, 239, 250);
+    background-color: rgba(14, 132, 201, 0.671);
+    background-size: cover;
+    background-blend-mode: darken;
+    color:yellow;
+    border-radius: 5px;
+
 }
-.someshit {
-    background-color: rgb(248, 202, 230);
+.everything {
+    background-image: url("https://www.kearnypearsonford.com/images/research/city-driving-tips.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-blend-mode: darken;
+
 }
